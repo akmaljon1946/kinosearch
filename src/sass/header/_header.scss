@@ -1,0 +1,38 @@
+.hcontainer {
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.header {
+  position: relative;
+  height: 72px;
+  background-color: #1f1f1f;
+
+  &__inner {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 163px;
+    height: 100%;
+    text-decoration: none;
+
+  }
+}
+
+.hassidbar_inner {
+  display: flex;
+  align-items: center;
+  margin-left: 71px;
+}
